@@ -1,10 +1,11 @@
+import logo from "./logo.svg";
 import "./App.css";
-import SwipeableEdgeDrawer from "./Components/Demo/Demo";
+import Form from "./Components/Form/Form";
 
 function App() {
   return (
     <div className="App">
-      <SwipeableEdgeDrawer />
+      <Form />
     </div>
   );
 }
